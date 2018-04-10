@@ -1,2 +1,6 @@
-# Spring-Web-Shoes-Shopping-Website
-Shoes shopping website use spring framework, Model-View-Controller and connect with Sql Server
+# Spring MVC Shoes Shopping Website
+
+- Team information:
+  + Phạm Ngọc Huy
+  + Bùi Phan Viết Cường
+  + Nguyễn Mạnh Cường
