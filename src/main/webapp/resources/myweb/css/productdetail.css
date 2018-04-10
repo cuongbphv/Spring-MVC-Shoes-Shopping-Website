@@ -1,0 +1,330 @@
+
+*{
+	box-sizing: border-box;
+	font-family: Josefin Sans;
+}
+
+.productDetailWrap img{
+	width: 100%;
+}
+
+.productDetailWrap{
+	font-family: Josefin Sans;
+}
+
+.aboutProduct{
+	border-bottom: 2px solid red;
+}
+
+.comboboxFilter{
+	display: inline-block;
+}
+
+.detailItem{
+	font-size: 18px;
+	padding-top: 8px;
+}
+
+.btnAddtocart{
+	background-color: transparent;
+	color: #040b70;
+	font-size: 18px;
+	border: 2px solid #040b70;
+	font-weight:bold;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.btnAddtocart:hover{
+	background-color: #c0c0c0;
+}
+.colour, .btnAddtocart{
+	padding: 5px;
+}
+
+.size{
+	padding:3px;
+	margin: 0;
+	text-align: center;
+	color: #040b70;
+}
+
+.sizeWrap{
+	display:none;
+	margin-top:2px;
+}
+
+.arrow{
+	transition: transform 0.3s;
+}
+
+.activeSize{
+	border: 1px solid blue;
+}
+
+.sizeSubItem{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.sizeSubItem a{
+	cursor: pointer;
+}
+
+.size:hover{
+	color:blue;
+	cursor:pointer;
+}
+
+
+.hide{
+	display:none;
+}
+
+.price{
+	font-size: 18px;
+	text-align: center;
+}
+
+.productDetailWrap{
+	display: flex;
+	align-items: center;
+}
+
+.alsolike{
+	text-align: center;
+
+}
+
+.productWrap .startingPrice{
+		display: none;
+}
+
+.producerWrap p
+{
+	font-style:  italic;
+	text-align: center;
+}
+
+
+.userComment, .commented{
+	border-bottom: 2px solid red;
+}
+
+
+.starItem{
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+
+.countstar{
+	display: inline-block;
+}
+
+.titlebox, .commentcontent{
+	padding: 8px 0;
+}
+
+.btnSendcmt{
+	margin-bottom: 15px;
+	border-radius: 0%;
+	float:right; 
+}
+
+.commentedContent{
+	margin-left: 15px;
+}
+
+.crop {
+    height: 360px;
+    /*width: 400px;*/
+    overflow: hidden;
+    position:relavtive;
+}
+.crop img {
+    height: 100%;
+    width: auto;
+}
+
+.crop1 {
+    height: 180px;
+    /*width: 400px;*/
+    overflow: hidden;
+}
+.crop1 img {
+    height: 100%;
+    width: auto;
+}
+
+
+.crop2 {
+    height: 80px;
+    /*width: 400px;*/
+    overflow: hidden;
+}
+.crop2 img {
+    height: 100%;
+    width: auto;
+}
+
+.ortherItem{
+	display:inline-block;
+	width:23%;
+	text-align:center;
+}
+
+.otherSide{
+	padding: 15px 0;
+}
+
+.ortherItem:hover{
+	background-color: #c0c0c0;
+}
+
+.ortherItem{
+	cursor: pointer;
+}
+
+.colorSubItem{
+	z-index:48;
+}
+
+.colorSubItemImg{
+	padding: 2px;
+	border-radius:100%;
+	border:3px solid transparent;
+	cursor:pointer;
+}
+
+.colorSubItem:hover .colorSubItemImg{
+	cursor:pointer;
+	border:3px solid black;
+	
+}
+
+.activeColor{
+	border:3px solid black;
+}
+
+
+@media screen and (max-width:991px){
+	.btnSendcmt{
+		float: none;
+	}
+	.crop {
+    height: 400px;
+    /*width: 400px;*/
+    overflow: hidden;
+	}
+	.crop1 {
+    height: 130px;
+    }
+    
+    .crop2 {
+    height: 75px;
+    /*width: 400px;*/
+    overflow: hidden;
+	}
+}
+
+
+@media screen and (max-width:768px){
+	.btnSendcmt{
+		float: none;
+	}
+	.crop {
+    height: 240px;
+    /*width: 400px;*/
+    overflow: hidden;
+	}
+	.crop1 {
+    height: 130px;
+    }
+    
+    .crop2 {
+    height: 65px;
+    /*width: 400px;*/
+    overflow: hidden;
+	}
+
+    .price{
+    text-align:center;
+    }
+    .size{
+    padding: 5px;
+	font-size: 16px;
+	}
+	.btnAddtocart{
+	font-size:14px;
+	}
+}
+
+
+@media screen and (min-width:992px) {
+	.productWrap:hover .startingPrice{
+		display: inline-block;
+	}
+
+	.startingPrice{
+		position: absolute;
+		top: 40%;
+		left: 40%;
+		text-align: center;
+		color: black;
+		display: none;
+	}
+	
+}
+
+
+	.productWrap img{
+		transition: opacity 0.5s
+	}
+
+	.productWrap:hover img{
+		opacity: 0.5;
+	}
+
+
+	.tiles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+
+  .tile {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 11;
+    transition: opacity 0.3s;
+  }
+
+  .photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform .5s ease-out;
+    transition: opacity 0.3s;
+  }
+
+

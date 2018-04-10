@@ -1,0 +1,36 @@
+*{
+	font-family: Josefin Sans;
+}
+
+.form-group{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.navbar {
+	width: 100%;
+}
+
+.col-md-offset-4
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.col-md-5 #loginheader{
+	text-align: center;
+	border-left: 10px solid blue;
+}
+
+.wrapper{
+	padding-top: 80px;
+}
+
+@media screen and (max-width: 768px){
+	.banner{
+		display: none;
+	}
+	.wrapper{
+		padding: 20px 50px;
+	}
+}

@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: blue;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.row{
+	padding-top: 10px;
+}
+
+ /* NAVIGATION & HEADER  */
+
+#cart{
+	transition: transform 0.5s;
+}
+
+a:hover #cart{
+	transform: scale(1.2);
+}
+
+li{
+	list-style: none;
+}
+.headerWrap{
+	padding: 10px 0;
+	background: white;
+	border-bottom: 1px solid #d5dae4;
+	box-shadow: 2px 2px 2px 2px #eaedf2;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+	z-index: 50;
+}
+
+
+#imgLogo{
+	width: 200px;
+	height: auto;	
+	margin: 0 auto;
+}
+.logo{
+	text-align: center;
+	display: inline-block;
+}
+
+#loginlink{
+	float:right; 
+	padding-right: 20px; 
+	line-height: 35px;
+}
+
+#expands
+{
+	display: none;
+	line-height: 35px;
+	transform: scale(1.7);
+	cursor:pointer;
+	padding-left: 10px;
+}
+
+.navWrapper{
+	text-align: center;
+	color: black;
+}
+.item{
+	display: inline-block;
+	padding-right: 30px;
+	font-size: 18px;
+	font-family: Josefin Sans;
+}
+
+.item:hover{
+	color:blue;
+}
+
+/* END NAVI & HEADER */
+
+
+@media screen and (max-width: 990px){
+
+	/* NaVI */
+	#loginlink{
+		display: none;
+	}
+	#expands{
+		display: inline-block;
+	}
+	.navi{
+		display: none;
+	}
+
+	.item{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 991px){
+	
+	.navi{
+		display: block;
+	}
+}

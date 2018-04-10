@@ -1,0 +1,198 @@
+/* HOME */
+
+*{
+	font-family: Josefin Sans;
+}
+
+.home{
+	z-index: 1;
+	font-family: Josefin Sans;
+	background-image: url('img/background.jpg');
+}
+
+
+.imgBanner{
+	width: 100%;
+	height: auto;
+}
+
+.banner{
+	position: relative;
+	transition: opacity 1s;
+}
+
+.banner:hover{
+	opacity: 0.5;
+}
+
+#q1,#q2{
+	color: #416bf4;
+	position: absolute;
+	left: 65%;
+	letter-spacing: 2px;
+}
+
+#q1{
+	top: 10%;
+	font-size: 100%;
+}
+
+#q2{
+	top: 25%;
+}
+
+#menShopping, #womenShopping{
+	height: 180px;
+	text-align: center;
+	box-sizing: border-box;
+	vertical-align: middle;
+	line-height: 45px;
+	color: white;
+	font-weight: bold;
+	font-family: Josefin Sans;
+	transition: opacity 1s;
+}
+
+#menShopping:hover, #womenShopping:hover{
+	opacity: 0.5;
+}
+
+#menShopping{
+	background: #052f72;
+}
+
+#womenShopping{
+	background: #960777;
+}
+
+.head1{
+	padding-top: 45px;
+	font-size: 5vh;
+	letter-spacing: 2px;
+}
+
+.sub1{
+	text-decoration: underline;
+	font-size: 3vh;
+}
+
+/* TOP TRENDING */
+
+.productName{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 2.3vh;
+	text-transform: uppercase;
+}
+
+.crop {
+    height: 210px;
+    /*width: 400px;*/
+    overflow: hidden;
+}
+.crop img {
+    height: 100%;
+    width: auto;
+}
+
+.line{
+	border-bottom: 1px solid black;
+	padding: 15px 0 0px 0;
+}
+
+@media screen and (max-width: 768px){
+	/* BANNER */
+	
+	.crop {
+    height: 130px;
+    }
+}
+
+
+@media screen and (max-width: 990px){
+	/* BANNER */
+	
+	
+	#menShopping{
+		margin: 0;
+	}
+
+	#womenShopping{
+		margin: 0;
+	}
+	
+	/* PRODUCT */
+	.productWrap .startingPrice{
+		display: none;
+	}
+
+	.producerWrap p
+	{
+		font-style:  italic;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 992px){
+
+	/* NAVI */
+	 
+	/* BANNER */
+	#menShopping, #womenShopping{
+		height: 160px;
+		line-height: 40px;
+	}
+
+	.head1{
+		padding-top: 40px;
+	}
+
+	#menShopping{
+	margin-right: 10px;
+	}
+
+	#womenShopping{
+	margin-left: 10px;
+	}
+	
+	/* PRODUCT */
+	.productWrap img{
+		transition: opacity 0.5s
+	}
+
+	.productWrap:hover img{
+		opacity: 0.4;
+	}
+	.productWrap:hover .startingPrice{
+		display: inline-block;
+	}
+
+	.startingPrice{
+		position: absolute;
+		top: 40%;
+		left: 40%;
+		text-align: center;
+		color: black;
+		display: none;
+	}
+
+	/* producer */
+
+	.producerWrap{
+		transition: opacity 0.5s;
+	}
+
+	.producerWrap:hover{
+		opacity: 0.3;
+	}
+
+	.producerWrap p
+	{
+		padding: 0 50px;
+	}
+
+	.producerWrap a:hover{
+		color: black;
+	}
+}

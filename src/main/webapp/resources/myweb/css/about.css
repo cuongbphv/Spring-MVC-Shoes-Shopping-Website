@@ -1,0 +1,128 @@
+*{
+		font-family: Josefin Sans;	
+}
+
+
+.aboutWrap{
+	padding-top: 100px;
+	opacity: 0;
+	transition:  all 2s;
+}
+
+#directorAvatar{
+	width: 100%;
+	height: auto;
+}
+
+.directorInfo{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.companyInfo{
+	font-size: 18px;
+	text-align: justify;
+	padding: 0 25px;
+}
+
+.info{
+	padding-top: 35px;
+}
+
+.banner{
+	text-align: center;
+	padding-top: 25px;
+}
+
+.banner img{
+	width: 96%;
+	height: auto;
+}
+
+.slogan{
+	padding-top: 0px;
+}
+
+#sloganContent{
+	font-size: 16px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.line{
+	border-bottom: 2px solid black;
+	padding: 15px 0 0px 0;
+}
+
+.widelyItem{
+	height: 220px;
+	width: 220px;
+	background: blue;
+	display: inline-block;
+	margin: 0 50px;
+	opacity: 0.5;
+	border-radius: 2%;
+	transition: opacity 1s;
+}
+
+.widelyItem:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+
+.widelyWrap{
+	text-align: center;
+
+}
+
+.head{
+	padding-top: 15px;
+	font-weight: bold;
+	color: white;
+	font-size: 100px;
+}
+
+.sub{
+	color: white;
+	font-size: 25px;
+}
+
+.contactInfo{
+	background: #c0c0c0;
+	padding: 30px 15px;
+}
+
+.contactItem{
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.address{
+	border-right: 1px solid blue;
+}
+
+@media screen and (max-width: 990px){
+	
+
+	.widelyItem{
+		height: 120px;
+		width: 120px;
+		margin: 0 5px;
+	}
+
+	.head{
+		font-size: 50px;
+	}
+
+	.sub{
+		font-size: 14px;
+	}
+
+	.company{
+		padding-top:  25px;
+	}
+
+	.companyInfo{
+	font-size: 18px;
+	}
+}

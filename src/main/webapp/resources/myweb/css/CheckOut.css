@@ -1,0 +1,87 @@
+.headerProduct, .contentProduct{
+	padding: 7px 0;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.contentProduct{
+
+}
+
+.customerInfo, .orderInfo{
+	border: 2px groove #c0c0c0;
+	margin: 10px 10px 0 20px;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+.tempPrice, .totalPrice{
+	padding: 7px 0;
+}
+
+.info{
+	padding: 7px 0;
+}
+
+.btn{
+	width: 100%;
+	padding: 10px 0;
+}
+
+.button{
+	padding: 20px 50px 0 50px;
+}
+.checkoutWrap{
+	font-family: Josefin Sans;	
+}
+
+/* here */
+.col-xs-offset-1{
+	padding: 0;
+	margin-left: 11%;
+}
+
+#discountLabel a{
+	color: blue;
+}
+
+#discountLabel{
+	cursor: pointer;
+}
+
+#discountInput{
+	display: none;
+}
+
+#discountCode{
+	text-align: center;
+	font-weight: bold;
+	display: none;
+}
+
+
+@media screen  and (max-width: 990px)
+{
+	.button{
+	padding: 20px 60px 0 60px;
+	}
+}
+
+#changeAddress,.btnAddAddress{
+	color:blue;
+	cursor: pointer;
+}
+#changeAddress:hover, .btnAddAddress:hover{
+	color:#c0c0c0;
+}
+
+.subAddressItem{
+	padding:0 0;
+}
+
+label{
+	font-weight: normal;
+	cursor:pointer;
+}
+label:hover{
+	font-weight: bold;
+}

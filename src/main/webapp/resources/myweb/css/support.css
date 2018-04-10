@@ -1,0 +1,42 @@
+.form-group{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.navbar {
+	width: 100%;
+}
+
+.col-md-offset-4
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.col-md-5 #loginheader{
+	text-align: center;
+	border-left: 10px solid blue;
+}
+
+.col-md-4 .question{
+    border: 1px solid black; 
+    border-radius: 10px; 
+    padding: 10px; 
+    background: #FFF;
+    margin-top: 10px
+}
+
+.col-md-4 .question:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.col-md-12 .h4-answer{
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}
+
+.col-md-12 .answer{
+    display: none;
+}

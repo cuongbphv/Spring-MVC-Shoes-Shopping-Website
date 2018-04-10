@@ -1,0 +1,11 @@
+.style-button{
+    border: 1px solid #a9f484;
+    border-radius: 10px;
+    background: #a9f484;
+    margin-bottom: 5px;
+}
+
+.form-group{
+    text-align: center;
+	background: white;
+}

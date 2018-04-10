@@ -1,0 +1,61 @@
+.orderHeader, .orderProduct, .orderProductHeader{
+    display: flex;
+    align-items: center;
+}
+
+.orderHeader{
+	padding: 5px 0;
+}
+
+.orderWrap{
+	font-family: Josefin Sans;
+}
+
+.orderProduct{
+	background-color: #f9f9f9;
+	margin: 10px 0;
+}
+
+.orderProductHeader{
+	background-color: #c4c4c4;
+}
+
+.orderProductHeader a{
+	color: blue;
+}
+
+.orderProductHeader a:hover{
+	color: #ed15d3;
+}
+
+.orderProductItem{
+	padding: 2px 0;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.crop {
+    height: 130px;
+    overflow: hidden;
+}
+.crop img {
+    height: 100%;
+    width: auto;
+}
+
+.loader {
+  border: 7px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 7px solid #3498db;
+  width: 120px;
+  height: 120px;
+  animation: spin 0.5s linear infinite;
+  display:inline-block;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

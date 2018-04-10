@@ -1,0 +1,166 @@
+*{
+	font-family: Josefin Sans;
+}
+
+body{
+	transition: all 1s;
+}
+
+a:hover{
+	color: black;
+}
+
+.saleWrap{
+	font-family: Josefin Sans;
+}
+
+.slidebar{
+	height: 100%;
+	background-color: transparent;
+	position: fixed;
+	padding-top: 5px;
+	font-size: 20px;
+	z-index: 100;
+	border-right : 1px solid #c0c0c0;
+}
+
+.slideItem{
+	font-size: 20px;
+	padding: 20px 0;
+	padding-left: 25px;
+	cursor: pointer;
+}
+
+.slideItem:hover{
+	background-color: #05305C;
+	color:white;
+	border-bottom: 1px solid white;
+}
+
+.slideItem a{
+	text-decoration: none;
+}
+
+#activeSlideItem{
+	background-color: #05305C;
+	color:white;
+	border-bottom: 1px solid white;
+}
+
+
+.comboboxFilter{
+	display: inline-block;
+}
+
+.filterBar{
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
+	background-color: transparent;
+	z-index: 1;
+}
+
+.txtSearch{
+	display: inline-block;
+}
+
+.productWrapper{
+	padding-top: 15px;
+	padding-left: 0;
+	position: relative;
+	transition: all 1s;
+}
+
+.productWrap .startingPrice{
+		display: none;
+}
+
+.producerWrap p
+{
+	font-style:  italic;
+	text-align: center;
+}
+
+.line{
+	border-bottom: 1px solid black;
+	padding: 15px 0 5px 0;
+}
+
+.typeHeader{
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+
+footer{
+	z-index: 111;
+}
+
+.crop {
+    height: 170px;
+    /*width: 400px;*/
+    overflow: hidden;
+}
+.crop img {
+    height: 100%;
+    width: auto;
+}
+
+.productName{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 2.3vh;
+	text-transform: uppercase;
+}
+
+#btnSearch:hover a{
+	color:white;	
+}
+
+footer{
+	padding-top:30px;
+}
+
+
+@media screen and (max-width: 768px){
+
+	.crop {
+    height: 110px;
+    }
+}
+
+
+@media screen and (max-width: 990px){
+	.comboboxFilter{
+		display: none;
+	}
+
+	.slidebar{
+		display: none;
+	}
+}
+
+@media screen and (min-width:992px) {
+	.productWrap img{
+		transition: opacity 0.5s
+	}
+
+	.productWrap:hover img{
+		opacity: 0.5;
+	}
+	.productWrap:hover .startingPrice{
+		display: inline-block;
+	}
+
+	.startingPrice{
+		position: absolute;
+		top: 40%;
+		left: 40%;
+		text-align: center;
+		color: black;
+		display: none;
+	}
+}

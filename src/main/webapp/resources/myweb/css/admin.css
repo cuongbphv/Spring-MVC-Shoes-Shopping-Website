@@ -1,0 +1,91 @@
+.container-fluid{
+    margin-bottom: 10px;
+}
+
+.col-xs-12{
+    margin-top: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+}
+
+.col-xs-12 ul li a:hover{
+    font-weight: bold;
+}
+
+.col-xs-12 ul li{
+    padding-left: 10px;
+}
+
+table{
+    text-align: center;
+}
+
+.button-style{
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.button-style-update{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.form-detail{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+/*    margin-left: 18%;*/
+}
+
+.form-detail-add{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 25px;
+/*    margin-left: 18%;*/
+}
+
+.sub-menu{
+    display: none;
+}
+
+.col-md-9 input,label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.settingItem{
+	border-bottom: 1px solid #c0c0c0;
+	padding-top: 10px;
+}
+
+.changeBanner{
+	border-bottom: none;
+}
+
+.bannerImg{
+	width:400px;
+	height:220px;
+	text-align:center;
+}
+
+.bannerWrapper{
+	display:none;
+}
+
+.bannerImg img{
+	height:100%;
+	width: auto;
+	margin: 0 auto;
+}
+
+.btnChangeBanner{
+	cursor:pointer;
+}
+
+.btnEditFeature{
+	cursor:pointer;
+}
